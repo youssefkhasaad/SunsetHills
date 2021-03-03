@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Sunset Hills</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel= "stylesheet" href="css/custom.css">
+</head>
+  <body style="background-color: #040b14;">
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #040b14">
+        <a class="navbar-brand" href="index.html">Sunset Hills</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"></i>Home </a>
+                </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="https://youssef-asaad.netlify.app/" target = "_blank"></i>Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/youssefkhasaad/SunsetHills" target="_blank"><i class=""></i>GitHub</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header  class="jumbotron jumbotron-fluid text-center"style="background-color: #040b14;">
+        <div class="container d-flex flex-column align-items-center aos-init aos-animate"
+        data-aos= "zoom-in"data-aos-delay= "100" style="background-color: #040b14;">
+            <h1 class="display-1  "style="background-color: #f6f6f6;">Sunset Hills</h1>
+        <hr class="my-2">
+    </div>
+</header>
+<div class="card-columns offset-xlg text-center">
+    <div class="card offset-lg-5">
+        <div class="card-body" style="background-color: #040b14;">
+            <h2 class="card-title white">Find out which buildings will enjoy the sunset!</h2>
+            <br>
+            <h4 class="card-text white">The building stories and order are: <br>
+                 3, 2, 4, 7, 6, 9</h4>
+            <br>
+            <button class="btn btn-outline-info" id="clickBld">Found out</button><br>
+            <hr>
+            <h5 class="white">How many buildings will see the sunset: </h5><br>
+            <p class="result" id="result"></p> 
+            <h5 class="white">Those buildings are:</h5><br><br>
+            <p class="result" id="result2"></p>                   
+        </div>
+    </div>
+    <div class="card offset-lg-7">
+        <div class="card-body" style="background-color: #040b14;">
+            <h3 class="card-title white">YOU enter the building height and order
+            and we will tell you which will see the sunset!</h3>
+            <h4 class="card-text white">Please enter the heights for six buildings:</h4>
+            <p id="arrayBld2" type="number"></p>
+                              
+            <!-- <button class="btn btn-dark" id="btnReverse">Click to reverse</button> -->
+            <input type="text" class="form-control" placeholder="First Building" id="input1">
+            <input type="text" class="form-control" placeholder="Second Building" id="input2">
+            <input type="text" class="form-control" placeholder="Third Building" id="input3">
+            <input type="text" class="form-control" placeholder="Fourth Building" id="input4">
+            <input type="text" class="form-control" placeholder="Fifth Building" id="input5">
+            <input type="text" class="form-control" placeholder="Six Building" id="input6">
+            <br>
+            <h5 class="white">The buildings that will see the sunset:</h5>
+                <p class="result" id="result3"></p>
+            <button class="btn btn-outline-info" id="clickBld2">Click</button> 
+            <button class="btn btn-outline-secondary" id="clear">Clear</button>             
+        </div>
+    </div>
+
+    
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
